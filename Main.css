@@ -74,10 +74,14 @@ header {
   padding: 8px;
   cursor: pointer;
 }
+.right-section {
+  display: flex;
+}
 .right-section a {
   color: black;
   padding-right: 18px;
 }
+
 .aria-content {
   margin-top: 56px;
   height: calc(100vh - 56px);
@@ -278,5 +282,11 @@ main {
   }
   .mid-section form {
     width: auto;
+  }
+  .right-section a i {
+    font-size: 2rem;
+  }
+  .right-section a {
+    padding-right: 1rem;
   }
 }
